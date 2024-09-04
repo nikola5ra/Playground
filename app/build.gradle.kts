@@ -9,7 +9,7 @@ android {
 
     defaultConfig {
         applicationId = "com.example.playground"
-        minSdk = 28
+        minSdk = 30
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -48,6 +48,7 @@ dependencies {
     implementation(libs.androidx.lifecycle.viewmodel.ktx)
     implementation(libs.androidx.navigation.fragment.ktx)
     implementation(libs.androidx.navigation.ui.ktx)
+    implementation(libs.androidx.biometric)
     implementation(libs.qr.scanner)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
